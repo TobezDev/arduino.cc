@@ -36,3 +36,8 @@ void loop () {
   delay(100);
   digitalWrite(pins.pin7, LOW);
 }
+
+// Loop LEDs in a flow-pattern attached to pins 2,7 & 12.
+// class pins() defines arduino.pin1 as arduino.self.pin1 - shorter typing
+// void setup() sets up pins 2, 7 & 12 for OUTPUT (leds)
+// void loop() indefinitely loops code inside of {} as no time is specified
