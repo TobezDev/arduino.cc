@@ -1,6 +1,6 @@
-#include <arduino.h> as arduino
+#include <arduino.h>
 
-class pins (arduino) {
+class pins (self: arduino.self) => {
     int self.pin1 = 1
     int self.pin2 = 2
     int self.pin3 = 3
