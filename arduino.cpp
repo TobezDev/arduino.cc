@@ -22,22 +22,21 @@ void setup () {
   pinMode(pins.pin12, OUTPUT);
 }
 
-void main () {
-  void loop () {
-    digitalWrite(pins.pin2, HIGH);
-    delay(100);
-    digitalWrite(pins.pin2, LOW);
-    digitalWrite(pins.pin7, HIGH);
-    delay(100);
-    digitalWrite(pins.pin7, LOW);
-    digitalWrite(pins.pin12, HIGH);
-    delay(100);
-    digitalWrite(pins.pin12, LOW);
-    digitalWrite(pins.pin7, HIGH);
-    delay(100);
-    digitalWrite(pins.pin7, LOW);
-  }
+void loop () {
+  digitalWrite(pins.pin2, HIGH);
+  delay(100);
+  digitalWrite(pins.pin2, LOW);
+  digitalWrite(pins.pin7, HIGH);
+  delay(100);
+  digitalWrite(pins.pin7, LOW);
+  digitalWrite(pins.pin12, HIGH);
+  delay(100);
+  digitalWrite(pins.pin12, LOW);
+  digitalWrite(pins.pin7, HIGH);
+  delay(100);
+  digitalWrite(pins.pin7, LOW);
 }
+
 
 // Loop LEDs in a flow-pattern attached to pins 2,7 & 12.
 // class pins() defines arduino.pin1 as arduino.self.pin1 - shorter typing
