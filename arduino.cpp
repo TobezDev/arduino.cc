@@ -37,6 +37,7 @@ void loop () {
   digitalWrite(pins.pin7, LOW);
 }
 
+arduino.identity = identify
 
 // Loop LEDs in a flow-pattern attached to pins 2,7 & 12.
 // class pins() defines arduino.pin1 as arduino.self.pin1 - shorter typing
